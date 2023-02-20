@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+.time {
+    text-align: center;
+    padding: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 2px solid #000;
+}
+
+.time h3 {
+    font-size: 32px;
+    letter-spacing: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.time .colaboradores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

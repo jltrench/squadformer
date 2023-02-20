@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,229,1) 50%, rgba(252,176,69,1) 100%);
+    color: #FFF;
+    font-size: 19px;
+    height: 16rem;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .socials .social img {
+    height: 25px;
+    width: 25px;
+    margin-right: 40px;
+}
+
+footer .logo img{
+    height: 250px;
+    width: 650px;
+}
+
+footer .developed a{
+    color: #FFF;
+    text-decoration: none;
+}
